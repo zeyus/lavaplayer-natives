@@ -19,7 +19,7 @@ def getBuildParameters(base) {
     ]
   } else {
     return [
-        'identifier': "linux-x86-64",
+        'identifier': "linux-arm",
         'library': "lib${base}.so",
         'setupArguments': ['-DCMAKE_BUILD_TYPE=Release'],
         'buildArguments': [],
